@@ -3,7 +3,6 @@ function validateForm() {
     var name = document.forms["orderForm"]["name"].value;
     var food = document.forms["orderForm"]["food"].value;
     var quantity = document.forms["orderForm"]["quantity"].value;
-    var consent = document.forms["orderForm"]["consent"].checked;
 
     if (name == "") {
         alert("Name must be filled out");
