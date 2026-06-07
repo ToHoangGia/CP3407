@@ -8,10 +8,10 @@ Advanced software engineering
 ### TODO
 - Register Account
 - User Login
-- Browse Menu
+
 
 ### DONE
-
+- Browse Menu
 
 # User Stories
 ### User Login
