@@ -53,3 +53,40 @@ function validateLogin() {
 
     return true;
 }
+
+function validateRegister() {
+
+    var name = document.forms["registerForm"]["registerName"].value;
+    var email = document.forms["registerForm"]["registerEmail"].value;
+    var password = document.forms["registerForm"]["registerPassword"].value;
+    var confirmPassword = document.forms["registerForm"]["confirmPassword"].value;
+
+    if (name == "") {
+        alert("Full name must be filled out");
+        return false;
+    }
+
+    if (email == "") {
+        alert("Email must be filled out");
+        return false;
+    }
+
+    if (password == "") {
+        alert("Password must be filled out");
+        return false;
+    }
+
+    if (confirmPassword == "") {
+        alert("Please confirm your password");
+        return false;
+    }
+
+    if (password != confirmPassword) {
+        alert("Passwords do not match");
+        return false;
+    }
+
+    alert("Account registered successfully!");
+
+    return true;
+}
