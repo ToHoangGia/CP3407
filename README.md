@@ -7,11 +7,11 @@ Advanced software engineering
 
 ### TODO
 - Register Account
-- User Login
 
 
 ### DONE
 - Browse Menu
+- User Login
 
 # User Stories
 ### User Login
