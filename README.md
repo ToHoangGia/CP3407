@@ -6,12 +6,13 @@ Advanced software engineering
 ## Iteration 1 Project Board
 
 ### TODO
-- Register Account
+
 
 
 ### DONE
 - Browse Menu
 - User Login
+- Register Account
 
 # User Stories
 ### User Login
