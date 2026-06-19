@@ -108,3 +108,37 @@ footer {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.cart-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cart-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-section li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-section button,
+.food-item button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-section button:hover,
+.food-item button:hover {
+    background-color: #1e8449;
+}
+
