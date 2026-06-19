@@ -130,3 +130,15 @@ function clearCart() {
 
     alert("Cart cleared");
 }
+
+function checkout() {
+    if (cart.length == 0) {
+        alert("Your cart is empty");
+        return false;
+    }
+
+    alert("Order placed successfully!");
+    clearCart();
+
+    return true;
+}

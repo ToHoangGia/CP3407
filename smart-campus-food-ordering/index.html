@@ -95,35 +95,10 @@
 
             <p id="totalPrice">Total: $0.00</p>
 
+            <button onclick="checkout()">Place Order</button>
             <button onclick="clearCart()">Clear Cart</button>
         </section>
 
-        
-        <section class="order-form">
-            <h2>Place Order</h2>
-
-            <form name="orderForm" onsubmit="return validateForm()">
-
-                <label for="name">Student Name:</label>
-                <input type="text" name="name" id="name">
-
-                <label for="food">Choose Food:</label>
-                <select name="food" id="food">
-                    <option value="">Select Food</option>
-                    <option value="Chicken Rice">Chicken Rice</option>
-                    <option value="Fried Noodles">Fried Noodles</option>
-                    <option value="Bubble Tea">Bubble Tea</option>
-                    <option value="Iced Coffee">Iced Coffee</option>
-                    <option value="Burger Set">Burger Set</option>
-                </select>
-
-                <label for="quantity">Quantity:</label>
-                <input type="number" name="quantity" id="quantity">
-
-                <input type="submit" value="Place Order">
-
-            </form>
-        </section>
 
     </main>
 
