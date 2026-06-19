@@ -6,7 +6,7 @@ Advanced software engineering
 ## Iteration 1 Project Board
 
 ### TODO
-
+- shopping cart
 
 
 ### DONE
