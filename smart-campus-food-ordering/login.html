@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Smart Campus Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Campus Food Ordering System</h1>
+    <p>User Login</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+</header>
+
+<main>
+    <section class="login-form">
+        <h2>Login</h2>
+
+        <form name="loginForm" onsubmit="return validateLogin()">
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Password:</label>
+            <input type="password" name="password">
+
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Smart Campus Food Ordering System</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
