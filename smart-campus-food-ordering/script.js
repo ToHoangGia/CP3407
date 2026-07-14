@@ -24,15 +24,11 @@ function validateForm() {
         return false;
     }
 
-    if (consent == false) {
-        alert("Please confirm your order");
-        return false;
-    }
-
     alert("Order submitted successfully!");
 
     return true;
 }
+
 
 function validateLogin() {
 
@@ -49,10 +45,9 @@ function validateLogin() {
         return false;
     }
 
-    alert("Login successful!");
-
     return true;
 }
+
 
 function validateRegister() {
 
@@ -86,15 +81,16 @@ function validateRegister() {
         return false;
     }
 
-    alert("Account registered successfully!");
-
     return true;
 }
+
 
 var cart = [];
 var total = 0;
 
+
 function addToCart(foodName, price) {
+
     cart.push({
         name: foodName,
         price: price
@@ -107,9 +103,15 @@ function addToCart(foodName, price) {
     alert(foodName + " added to cart");
 }
 
+
 function displayCart() {
+
     var cartList = document.getElementById("cartList");
     var totalPrice = document.getElementById("totalPrice");
+
+    if (cartList == null || totalPrice == null) {
+        return;
+    }
 
     cartList.innerHTML = "";
 
@@ -122,7 +124,9 @@ function displayCart() {
     totalPrice.innerHTML = "Total: $" + total.toFixed(2);
 }
 
+
 function clearCart() {
+
     cart = [];
     total = 0;
 
@@ -131,14 +135,19 @@ function clearCart() {
     alert("Cart cleared");
 }
 
+
 function checkout() {
+
     if (cart.length == 0) {
         alert("Your cart is empty");
         return false;
     }
 
     alert("Order placed successfully!");
-    clearCart();
+
+    cart = [];
+    total = 0;
+    displayCart();
 
     return true;
 }
