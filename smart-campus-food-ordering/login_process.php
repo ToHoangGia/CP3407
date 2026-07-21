@@ -26,7 +26,7 @@ if ($result->num_rows == 1) {
         $_SESSION["full_name"] = $user["full_name"];
         $_SESSION["role"] = $user["role"];
 
-        echo "<script>alert('Login successful'); window.location.href='index.html';</script>";
+        echo "<script>alert('Login successful'); window.location.href='index.php';</script>";
     } else {
         echo "<script>alert('Incorrect password'); window.location.href='login.html';</script>";
     }
