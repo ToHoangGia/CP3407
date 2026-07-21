@@ -15,6 +15,11 @@ $sql = "
 ";
 
 $result = $conn->query($sql);
+
+if ($result === false) {
+    die("Menu query failed: " . $conn->error);
+}
+
 $current_store = "";
 ?>
 
