@@ -1,7 +1,7 @@
 <?php
-$host = "localhost";
-$username = "root";
-$password = "";
+$host = "db";
+$username = "campus_user";
+$password = "campus_pass";
 $database = "smart_campus_food";
 
 $conn = new mysqli($host, $username, $password, $database);
