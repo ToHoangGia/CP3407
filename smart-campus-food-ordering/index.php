@@ -12,7 +12,7 @@
         <h1>Smart Campus Food Ordering System</h1>
         <p>Order food easily from campus stalls</p>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
         </nav>
