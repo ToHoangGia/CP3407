@@ -9,11 +9,13 @@ Advanced software engineering
 
 
 
-### DONE
-- shopping cart
-- Browse Menu
-- User Login
-- Register Account
+## DONE
+- [x] Configure Docker development environment
+- [x] Connect PHP website to MySQL
+- [x] Store users in MySQL
+- [x] Load menu items from MySQL
+- [x] Add shopping cart
+- [x] Save checkout orders in MySQL
 
 # User Stories
 ### User Login
